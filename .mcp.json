@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "escapebot": {
+      "type": "http",
+      "url": "https://api.escape-bot.com/mcp"
+    }
+  }
+}
