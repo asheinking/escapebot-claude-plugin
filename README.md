@@ -43,16 +43,17 @@ Sign in with an existing EscapeBot account when Claude opens Connect (OAuth). Bi
 
 | Name | What it does |
 | --- | --- |
-| `escapebot` skill | How Claude should call Oracle, valuation, quotes, screener, and filings |
-| `/escapebot:oracle` | Oracle score and Why for a ticker |
+| `escapebot` skill | How Claude should call the forecast, valuation, quotes, news, screener, and filings |
+| `/escapebot:forecast` | Custom forecast and what drives it for a ticker |
 | `/escapebot:fair-value` | EscapeBot fair value for a ticker |
 | `/escapebot:screen` | Equity screen via `get_screener_filter_specs` then `run_screen` |
 
 Example prompts:
 
-- What is the Oracle score for NVDA and why?
-- What is EscapeBot fair value for AAPL?
-- Screen profitable large-caps with a high Oracle score
+- What is the custom forecast for NVDA and what factors support it?
+- What is EscapeBot's fair value estimate for AAPL?
+- Screen profitable large-cap stocks using forecast and valuation metrics
+- What are the latest news stories for NVDA?
 
 ## What is in this repo
 

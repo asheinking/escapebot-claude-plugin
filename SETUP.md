@@ -23,7 +23,7 @@ Claude Chat / claude.ai users add the same server as a custom connector (or, onc
 
 ## Confirm it works
 
-Ask Claude: "What is the Oracle score for NVDA and why?" It should call EscapeBot tools rather than invent a score.
+Ask Claude: "What is the custom forecast for NVDA and what factors support it?" It should call EscapeBot tools rather than invent a forecast.
 
 ## Reconnect or disconnect
 
